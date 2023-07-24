@@ -21,7 +21,8 @@ class MainActivity : ComponentActivity() {
             ComposeTweaksTheme {
                LazyColumn(content = {
                    items(1) {
-                       ClubbedPhotos()
+                       //ClubbedPhotos()
+                       OwlCarousal()
                    }
                })
             }
